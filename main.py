@@ -1,14 +1,64 @@
-# print('hello world')
+# # print('hello world')
+# #
+# # print('hello world')
 #
-# print('hello world')
+# name = "vseslav"
+# surname = "nikoaenko"
+# age = 26
+#
+# print(name,surname,age)
+#
+# name = 'JohnSnow'
+# age = 29
+#
+# print(name,age)
 
-name = "vseslav"
-surname = "nikoaenko"
-age = 26
 
-print(name,surname,age)
+# # ДЗ 3
+# # 1 Привести к целому типу - 1.6, 2.99
+#
+# a = int(1.6)
+# b = int(2.99)
+#
+# print(a,b)
 
-name = 'JohnSnow'
-age = 29
+# # 2 Заменить символ “#” на символ “/” в строке 'www.my_site.com#about'
+#
+# text = "www.my_site.com#about"
+#
+# c = text.replace('#','/')
+#
+# print(c)
 
-print(name,age)
+# 3 Напишите программу, которая добавляет ‘ing’ к слову ‘stroka’
+
+# s1 = 'stroka'
+# s2 = 'ing'
+#
+# print(s1+s2)
+
+# 4 В строке “Ivanou Ivan” поменяйте местами слова => "Ivan Ivanou"
+# 5 Напишите программу которая удаляет пробел в начале, в конце строки
+# 6 Создайте словарь, связав его с переменной school, и наполните его данными которые бы отражали количество учащихся
+# в десяти разных классах (например, 1а, 1б, 2б, 6а, 7в и т.д.).
+# 7 Создайте список и извлеките из него списка второй элемент.
+# 8 Вывести входит ли строка1 в строку2 (пример: employ и employment )
+# 9 Вывести нужные символы
+# x = "My name is Agent Smith"
+# print(x[?]) #y
+# print(x[?:?:?]) #nesgt
+# 10 Есть массив чисел. Известно, что каждое число в этом массиве имеет пару, кроме одного: [1, 5, 2, 9, 2, 9, 1] => 5
+# Напишите программу, котораяпппппп будет выводить уникальное число
+
+
+
+
+# задание с урока
+
+# text1 = "HEllO WORLD"
+# text2 = " "
+# text3= "!"
+#
+# sum = text1 + text2 + text3
+
+# print(sum)
