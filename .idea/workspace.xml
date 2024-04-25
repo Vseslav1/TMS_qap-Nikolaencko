@@ -31,6 +31,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/main.py" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,7 +47,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "QAP__18__HW3"
+    "git-widget-placeholder": "#2 on QAP__18__HW3"
   }
 }]]></component>
   <component name="RecentsManager">
