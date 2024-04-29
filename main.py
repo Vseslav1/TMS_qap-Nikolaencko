@@ -16,8 +16,8 @@ print(c)
 # # 3 Напишите программу, которая добавляет ‘ing’ к слову ‘stroka’
 #
 text = ['stroka','ing']
-resultat = ''.join(text)
-print(resultat)
+result = ''.join(text)
+print(result')
 #
 #
 #
