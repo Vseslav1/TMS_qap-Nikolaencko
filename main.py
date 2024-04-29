@@ -17,7 +17,7 @@ print(c)
 #
 text = ['stroka','ing']
 result = ''.join(text)
-print(result)
+print(result')
 #
 #
 #
