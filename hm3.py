@@ -1,6 +1,5 @@
 # Работа с переменными:
 # 1 Переменной var_int присвойте значение 10, var_float - значение 8.4, var_str - "No".
-from typing import List, Any
 
 var_int = 10
 var_float = 8.4
@@ -130,7 +129,6 @@ print(list4)
 list4.insert(0, 33)
 list4.append(22)
 print(list4)
-
 
 # 7 Даны списки:
 # a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
