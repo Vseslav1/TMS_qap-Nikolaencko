@@ -68,12 +68,14 @@ str5 = str2[::3]
 
 str6 = str2[::-1]
 
-# 3 Есть строка: “my name is name”. Напечатайте ее, но вместо 2ого “name” вставьте
+# Есть строка: “my name is name”. Напечатайте ее, но вместо 2ого “name” вставьте
+# 3
 
 str7 = 'my name is name'
 namemy = 'vseslav'
-str8 = str7.replace('name', namemy, 1)
-print(str8)
+str8 = str7.replace('name', namemy,2 )
+str9 = str8.replace('vseslav','name',1 )
+print(str9)
 
 # 4 Есть строка: test_tring = "Hello world!", необходимо
 
@@ -304,8 +306,15 @@ print(r1)
 a_s = 3
 a_f = 4
 a_q = 5
-kol3 = sum([num > 0 for num in [a_s, a_f, a_q]])
-print(kol3)
+sum=0
+if a_s >0:
+    sum +=a_s
+if a_f >0:
+    sum +=a_f
+if a_q >0:
+    sum +=a_q
+print(sum)
+
 
 # 3
 # Дан номер года (положительное целое число). Определить количество дней в
@@ -487,6 +496,12 @@ while n > 0:
     count += 1
 print(count, summ)
 
+n = str(n)
+for i in n:
+    i = int(i)
+    summ += 1
+    count += 1
+print(count, summ)
 
 # 4
 # Деду M лет, а внуку N лет. Через сколько лет дед станет вдвое старше
@@ -494,10 +509,10 @@ print(count, summ)
 
 D = 69
 V = 12
-years = 0
+year = 0
 
 while V * 2 != D:
     D += 1
     V += 1
-    years += 1
-print(D, V, years)
+    year += 1
+print(D, V, year)
