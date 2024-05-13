@@ -30,11 +30,9 @@ def pol_ch(num):
             yield i
 
 
-my_gen = pol_ch(numbers)
+pol_numb = list(pol_ch(numbers))
 
-
-for i in my_gen:
-    print(i)
+print(pol_numb)
 
 # 2 Необходимо составить список чисел которые указывают на длину слов в строке
 # : sentence = " thequick brown fox jumps over the lazy dog", но только если слово не "the" с обработкой исключений
